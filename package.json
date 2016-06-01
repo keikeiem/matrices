@@ -1,0 +1,11 @@
+{
+  "name": "matrices",
+  "version": "1.0.0",
+  "description": "Matrices Operating Tools",
+  "author": "keikeiem@aimtog.co.kr",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^2.11.0",
+    "eslint-config-google": "^0.5.0"
+  }
+}

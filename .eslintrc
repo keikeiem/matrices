@@ -1,0 +1,12 @@
+{
+    "extends": ["google"],
+    "env":{
+        "browser": true,
+        "jquery": true
+    },
+    "rules":{
+        "indent": [2,"tab"],
+		"max-len": [2, 300, 4],
+		"camelcase": [2, {"properties": "never"}]
+    }
+}
