@@ -1,14 +1,3 @@
-var Matrix = {
-	checkSize: function(matrix) {
-
-	},
-	summation: function(matrixA, matrixB) {
-		if (Common.compareArray(matrixA, matrixB)) {
-			console.log('Do it');
-		}
-	}
-};
-
 var Common = {
 	// This function is used to check given two arrays are whether equal or not.
 	compareArray: function(arrayA, arrayB) {
