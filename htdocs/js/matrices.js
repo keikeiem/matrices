@@ -1,3 +1,4 @@
-function inputData(string) {
-	console.log(string);
+function inputData() {
+	var test = document.getElementById('console').value;
+	console.log(test);
 }
