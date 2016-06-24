@@ -1,20 +1,25 @@
 <html>
 <head>
 	<title>Matrix Calculator</title>
+	<!-- Libraries-->
 	<script type="text/javascript" src="./js/common.js"></script>
 	<script type="text/javascript" src="./js/matrices.js"></script>
 	<script type="text/javascript" src="./js/header.js"></script>
+	<!-- Bodies-->
+	<script type="text/javascript">
+		var matrix = new Matrix('test');
+	</script>
 </head>
 <body>
 	<textarea id="view" style="width:1280px; height:500px; resize:none; display:block;"></textarea>
 	<div>
 		<label>First Matrix</label>
-		<input type="text" id="matrix_1" style="width:1280px; height:30px; display:block; margin:10px 0;"></textarea>
+		<input type="text" id="matrix_1" style="width:1280px; height:30px; display:block; margin:10px 0;" value="[1,2,3; 1,2,3]"></input>
 	</div>
 	<div>
 		<label>Second Matrix</label>
-		<input type="text" id="matrix_2" style="width:1280px; height:30px; display:block; margin:10px 0;"></textarea>
+		<input type="text" id="matrix_2" style="width:1280px; height:30px; display:block; margin:10px 0;"></input>
 	</div>
-	<button onclick="Matrix.inputData('test');">TEST</button>
+	<button onclick="matrix.inputData('test');">TEST</button>
 </body>
 </html>
